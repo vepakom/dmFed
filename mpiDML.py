@@ -1,11 +1,9 @@
 from mpi4py import MPI
-import mpi4pyas np
-from mpi4py import MPI t as plt
 import numpy as np
 import matplotlib.pyplot as plt
-import randomMM_WORLD
+import random
 #Open communication()
-comm = MPI.COMM_WORLD nline")
+comm = MPI.COMM_WORLD 
 rank = comm.Get_rank()
 print(str(rank) + ": online")    
 
